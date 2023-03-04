@@ -10,20 +10,20 @@
 <body>
 
     <div class="container">
-        <h1>Dhaba Bill CLearance Manager</h1>
-        <p>Thanks for visiting us. Please kindly enter the <strong>bill amount</strong> and the <strong>cash received</strong> from the customer.</p>
+        <h1 class="projectname">Dhaba Bill Clearance Manager</h1>
+        <p class="instruction">Thanks for visiting us. Please kindly enter the <strong>bill amount</strong> and the <strong>cash received</strong> from the customer.</p>
 
-        <label for="">Bill Amount</label>
-        <input type="text">
+        <label class="input-label" for="nett-bill-amount">Bill Amount</label>
+        <input class="input" id="nett-bill-amount" type="text">
 
-        <label for="">Cash Received</label>
-        <input type="text">
+        <label class="input-label" for="cash-given">Cash Received</label>
+        <input class="input" id="cash-given" type="text">
 
-        <button>Display</button>
+        <button id="check-button" >Display</button>
         <!-- to display error warning for wrong input value -->
-        <p></p> 
+        <p id="errmessage" ></p> 
 
-        <table>
+        <table class="khata-table" >
             <caption>
                 Compute change distribution 
             </caption>
@@ -52,6 +52,6 @@
         </table>
     </div>
 
-    <script src="main.js"></script>
+    <script src="main.js" type="text/javascript"></script>
 </body>
 </html>
