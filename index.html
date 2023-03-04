@@ -9,9 +9,9 @@
 </head>
 <body>
 
-    <div>
+    <div class="container">
         <h1>Dhaba Bill CLearance Manager</h1>
-        <p>Thanks for visiting us. Please kindly enter the bill amount and the cash received from the customer.</p>
+        <p>Thanks for visiting us. Please kindly enter the <strong>bill amount</strong> and the <strong>cash received</strong> from the customer.</p>
 
         <label for="">Bill Amount</label>
         <input type="text">
@@ -20,8 +20,38 @@
         <input type="text">
 
         <button>Display</button>
+        <!-- to display error warning for wrong input value -->
+        <p></p> 
+
+        <table>
+            <caption>
+                Compute change distribution 
+            </caption>
+
+            <tr>
+                <th>Notes Denominations</th>
+                <td>2000</td>
+                <td>1000</td>
+                <td>500</td>
+                <td>100</td>
+                <td>50</td>
+                <td>10</td>
+                <td>1</td>
+            </tr>
+
+            <tr>
+                <th>Count of Notes</th>
+                <td class="notes-count"></td>
+                <td class="notes-count"></td>
+                <td class="notes-count"></td>
+                <td class="notes-count"></td>
+                <td class="notes-count"></td>
+                <td class="notes-count"></td>
+                <td class="notes-count"></td>
+            </tr>
+        </table>
     </div>
 
-    
+    <script src="main.js"></script>
 </body>
 </html>
