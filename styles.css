@@ -88,3 +88,31 @@ body {
     border-collapse: collapse;
     padding: 0.4rem;
   }
+
+  a {
+    text-decoration: none;
+    padding : 0rem 0.5rem;
+  }
+
+  footer {
+    text-align: center;
+  }
+  
+  footer p {
+    font-size: large;
+    text-align: center;
+  }
+  
+  .footer-list {
+    margin: 2rem;
+  }
+  
+  a,
+  img,
+  li {
+    display: inline;
+  }
+  
+  img {
+    width: 20px;
+  }
