@@ -12,5 +12,11 @@ Now, you have to determine the exact distribution of the different denominations
 Languages Used : 
 1. HTML  
 2. CSS  
-3. JavaScript
+3. JavaScript  
+  
+Code Editor : VScode  
+
+Version Control: Github, Github Desktop  
+
+Free Hosting : Netlify
 
